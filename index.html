@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primon AI-Chat</title>
+    <link rel="icon" href="ai.png" type="image/png" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+          width: 100%;
+          height: 100svh;
+        }
+        .heading{
+            height: 7%;
+            background-image: linear-gradient(pink,purple);
+        }
+        h1{
+            color: black;
+            font-family: "Inter", sans-serif;
+            text-shadow: 2px 2px 8px rgba(22, 135, 234, 0.7);
+            font-size: calc(5px+80%);
+        }
+        .image{
+            width: 100%;
+  height: 80svh;
+  background-image: url('image-5.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: blur(3px);
+        }
+        .start{
+            width: 100%;
+            height: 13svh;
+            background-image: linear-gradient(purple,pink);
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+        }
+        .start a{
+            height: 80%;
+            width: 20%;
+            text-decoration: none;
+            border-radius: 50%;
+            background-color: rgb(33, 160, 33);
+            font-size: 100%;
+            font-weight: 550;
+            font-family: "Inter", sans-serif;
+            border: none;
+            box-shadow: 2px 2px 25px 10px greenyellow;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all 0.5s;
+        }
+        .start a:hover{
+            height: 84%;
+            width: 24%;
+            font-size: 22px;
+            font-weight: 570;
+            box-shadow: 2px 2px 25px 12px greenyellow;
+        }
+        .but{
+            display: none;
+        }
+        @media (max-width:420px){
+            .start a{
+                 height: 95%;
+            width: 40%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="heading"><h1 align="center">Welcome to Primon AI</h1></div>
+    <div class="image">
+        
+    </div>
+    <div class="start">
+        <a href="index1.html"><button class="but">Lets Start</button>Lets Start</a>
+    </div>
+</body>
+</html>
